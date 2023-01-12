@@ -1,0 +1,6 @@
+.App{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+}

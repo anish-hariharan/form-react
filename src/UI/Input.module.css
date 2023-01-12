@@ -1,0 +1,29 @@
+.labelCont{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    padding: 3%;
+}
+
+.input {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+label{
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+}
+
+.redInput {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    border-color: red;
+}
+
+.redInput:hover{
+    border-color: red;
+}

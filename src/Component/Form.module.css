@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.formCont{
+    width: 50%;
+    position: fixed;
+    top: 10%;
+    background-color: white;
+    padding: 0 3% 3% 3%;
+}
+
+button{
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    margin: 4%;
+}
