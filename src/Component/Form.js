@@ -19,7 +19,7 @@ const Form = () => {
     age: Number(ages),
   };
 
-  const [createUser, { error }] = useMutation(CREATE_USER);
+  const [createUser, { error, data, loading }] = useMutation(CREATE_USER);
 
   const clicked = (e) => {
     e.preventDefault();
